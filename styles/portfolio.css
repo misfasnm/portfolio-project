@@ -51,3 +51,22 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16 px;
+  line-height: 1.5;
+}
+
+.btn-branding-outline {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
