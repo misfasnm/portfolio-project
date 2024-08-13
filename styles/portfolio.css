@@ -133,3 +133,15 @@ h3 {
   opacity: 0.7;
   margin: 0;
 }
+
+.certifications {
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.certifications:hover {
+  color: #606269;
+  cursor: pointer;
+  transition: 0.5s;
+}
