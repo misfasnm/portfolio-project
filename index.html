@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
@@ -27,79 +29,148 @@
       rel="stylesheet"
       href="styles/portfolio.css"
       <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
+      name="description"
+      content="Some description about myself in the homepage"
     />
     <title>Misfa Begum - Portfolio</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/" title="Homepage">Misfa Begum</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/"
+                title="Homepage"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html" title="About Misfa Begum"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/about.html#contact"
+                title="Contact Misfa Begum"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="hero">
       <p>👋Hello I am</p>
       <h1>Misfa Begum</h1>
       <h2 class="mb-3">Student at SheCodes, based in London UK</h2>
-      <div>
-        <a href="#" class="btn btn-branding">Contact Me</a>
+      <div class="navigation-links mt-5">
+        <a
+          href="/about.html#contact"
+          title="Contact Misfa Begum"
+          class="primary-link"
+          >Contact me</a
+        >
+        <a href="/about.html" title="About Misfa Begum" class="secondary-link"
+          >About me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">
-      Featured Project which my best projects be choice to show
+      Featured Project which are my best projects by choice
     </p>
 
     <div class="container">
-      <div class="row mb-5">
-        <div class="col d-none d-lg-block">
-          <img src="images/world-clock.png" class="img-fluid" alt="" />
+      <div class="row">
+        <div class="col-sm-6">
+          <img
+            src="/images/world-clock.png"
+            alt="yoga image"
+            class="img-fluid rounded d-none d-sm-block"
+          />
         </div>
-        <div class="col-6">
-          <div class="project-description">
-            <h2 class="mb-5">World Clock Project</h2>
-
-            <p class="mb-5 text-muted">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean. A small river named Duden flows by
-            </p>
-            <a href="" class="btn btn-branding-outline">Learn More</a>
+        <div class="col-sm-6">
+          <h2 class="mb-3">World Clock</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
+          </p>
+          <div class="mt-5">
+            <a href="#" title="world clock" class="primary-link project-link"
+              >Launch world clock</a
+            >
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="row mb-5">
-      <div class="col-6">
-        <div class="project-description">
-          <h2 class="mb-5">Weather App</h2>
-
-          <p class="mb-5 text-muted">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove right at the coast of the Semantics, a large
-            language ocean. A small river named Duden flows by
+      <div class="row mt-5">
+        <div class="col-sm-6">
+          <h2 class="mb-3">Weather App</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
           </p>
-          <a href="" class="btn btn-branding-outline">Learn More</a>
+          <div class="mt-5">
+            <a
+              href="#"
+              title="Weather project"
+              class="primary-link project-link"
+              >Launch Weather App</a
+            >
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <img
+            src="/images/weather-project.png"
+            alt="weather image"
+            class="img-fluid rounded d-none d-sm-block"
+          />
         </div>
       </div>
-      <div class="col d-none d-lg-block">
-        <img src="images/weather-project.png" class="img-fluid" alt="" />
-      </div>
-    </div>
-
-    <div class="row mb-5">
-      <div class="col d-none d-lg-block">
-        <img src="images/ai-poem-generator.png" class="img-fluid" alt="" />
-      </div>
-      <div class="col-6">
-        <div class="project-description">
-          <h2 class="mb-5">AI Poem Generator</h2>
-
-          <p class="mb-5 text-muted">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove right at the coast of the Semantics, a large
-            language ocean. A small river named Duden flows by
+      <div class="row mt-5">
+        <div class="col-sm-6">
+          <img
+            src="/images/ai-poem-generator.png"
+            alt="ai-poem-generator project"
+            class="img-fluid rounded d-none d-sm-block"
+          />
+        </div>
+        <div class="col-sm-6">
+          <h2 class="mb-3">AI Poem Generator</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
+            eos eveniet alias temporibus deserunt veritatis minima fugiat
+            explicabo eum dolore.
           </p>
-          <a href="" class="btn btn-branding-outline">Learn More</a>
+          <div class="mt-5">
+            <a
+              href="#"
+              title="AI poem generator project"
+              class="primary-link project-link"
+              >Launch AI poem generator</a
+            >
+          </div>
         </div>
       </div>
     </div>

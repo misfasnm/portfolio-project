@@ -1,6 +1,7 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", serif;
 }
@@ -45,13 +46,29 @@ p {
   line-height: 1.5;
 }
 
-.btn-branding {
-  background: var(--branding-color);
-  color: white;
+.navigation-links a {
+  margin: 20px;
+}
+
+.primary-link {
   border-radius: 4px;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.primary-link:hover {
+  color: white;
+}
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 h2 {
@@ -64,26 +81,6 @@ p {
   line-height: 30px;
 }
 
-.btn-branding-outline {
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 27px;
-  padding: 15px 30px;
-  color: var(--branding-color);
-  border: 1px solid var(--branding-color);
-}
-
-.project-description {
-  padding: 120 60px;
-}
-
-@media (max-width: 900px) {
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
-}
-
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -92,11 +89,40 @@ p {
 
   h2 {
     font-size: 42px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  project-link {
+    display: block;
+    text-align: center;
+    margin: 0, 20px;
   }
 
   .hero {
     padding: 80px 20px;
-    
   }
+}
 
+.about-paragraphs {
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  display: flex;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.email-link:hover {
+  text-decoration: underline;
 }
