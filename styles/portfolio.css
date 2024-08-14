@@ -31,7 +31,6 @@ h1 {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-
   color: #272142;
 }
 
@@ -146,3 +145,9 @@ h3 {
   transition: 0.5s;
 }
 
+.primary-link:hover {
+  background: #665fdf ;
+  cursor: pointer;
+  transition: 0.8s;
+  opacity: 0.9;
+}
