@@ -8,9 +8,34 @@
 
 body {
   margin: 100px 0;
-  background-image: url(https://img.freepik.com/free-photo/top-view-watercolor-paint-paper_23-2149062054.jpg?t=st=1723635399~exp=1723638999~hmac=e41c5aabbaf154fdcd8ec01467d146c51b3c557ded0f6b7e8d2043bf2e31f5a0&w=1380);
-  background-repeat: repeat;
-  background-size: cover;
+  background-color: ;
+}
+
+.logo {
+  max-width: 90px;
+  border-radius: 75px;
+  padding: 10px;
+  opacity: 0.7;
+}
+
+.logo:hover {
+  opacity: 1;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+}
+
+nav ul {
+  padding: 15px;
+  margin: 0;
 }
 
 h1 h2 {
@@ -124,19 +149,6 @@ h2 {
 
 .about-paragraphs p {
   margin: 10px;
-}
-
-.email-link {
-  color: black;
-  display: flex;
-  font-size: 28px;
-  text-decoration: none;
-  justify-content: center;
-}
-
-.email-link:hover {
-  text-decoration: none;
-  transition: 0.6s;
 }
 
 .about-hero {
