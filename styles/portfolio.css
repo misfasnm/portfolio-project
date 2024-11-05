@@ -112,8 +112,21 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
 footer {
   margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
 }
 footer .email-link {
   text-decoration: none;
@@ -139,6 +152,23 @@ footer .social-links a:hover {
   background: var(--primary-color);
   transition: all 100ms ease-in-out;
 }
+.btn {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: #b3a2c0;
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.btn:hover {
+  background: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  transition: 0.8s;
+  opacity: 0.9;
+}
 
 @media (max-width: 900px) {
   h1 {
@@ -149,6 +179,10 @@ footer .social-links a:hover {
   h2 {
     font-size: 42px;
     text-align: center;
+  }
+
+  h4 {
+    font-size: 18px;
   }
 
   p {
