@@ -23,6 +23,9 @@ body {
   cursor: pointer;
   transition: 0.5s;
 }
+.navbar a.active {
+  color: var(--primary-color);
+}
 
 nav {
   padding: 20px 0;
@@ -52,7 +55,7 @@ h1 {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
   opacity: 0.9;
 }
 
